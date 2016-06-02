@@ -1,0 +1,111 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+	margin:0;
+    padding:0;
+}
+body{
+	background-color:#deddcd;
+}
+.title{
+	-webkit-transform-style: preserve-3d;
+	-webkit-animation: spin1 5s infinite linear;
+}
+
+@-webkit-keyframes spin1 {
+      from { -webkit-transform: rotateX(0); }
+      to   { -webkit-transform: rotateX(360deg); }
+    }
+h1{ 
+	font: bold 65px/60px Helvetica, Arial, Sans-serif; 
+	text-align: center; 
+	margin-top: 10px;
+	color: #222222; 
+	text-shadow: 0px 2px 6px #333; 
+}
+#kobeposters{
+	list-style: none;
+	margin:50px 130px;
+}
+#kobeposters li{
+	margin-left: ;
+	display: inline;
+	float: left;
+	-webkit-perspective: 500;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition-property: perspective;
+	-webkit-transition-duration: 0.5s;
+}
+#kobeposters li:hover{
+	-webkit-perspective: 5000;
+}
+#kobeposters li img{
+	border: 10px solid #fcfafa;
+	-webkit-transform: rotateY(30deg);
+	-webkit-box-shadow:0 3px 10px #888;
+	-webkit-transition-property: transform;
+	-webkit-transition-duration: 0.5s;
+}
+#kobeposters li:hover img{
+	-webkit-transform: rotateY(0deg);
+}
+.kobeinfo{
+	border: 10px solid #FCFAFA;
+	padding: 20px;
+	width: 150px;
+	height: 180px;
+	background-color: #deddcd;
+	margin: -195px 0 0 55px;
+	position: absolute;
+	-webkit-box-shadow:0 20px 40px #888;
+	-webkit-transform: rotateY(30deg);
+	-webkit-transition-property: transform,box-shadow,margin;
+	-webkit-transition-duration: 0.5s;
+}
+#kobeposters li:hover .kobeinfo{
+	-webkit-transform: rotateY(0deg);
+	-webkit-box-shadow: 0 5px 10px #888;
+	margin: -175px 0 0 30px;
+}
+.kobeinfo h3{
+	color: #7a3f3a;
+	font-variant: small-caps;
+	font-family: georgia,serif,times;
+	text-align: center;
+	
+}
+.kobeinfo p{
+	padding-bottom: 15px;
+}
+.kobeinfo a{
+	background-color: #7A3F3A;
+	padding: 5px 10px;
+	color: #eee;
+	text-decoration: none;
+	display: block;
+	width: 80px;
+	text-align: center;
+	margin: 0 auto;
+	-webkit-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.kobeinfo a:hover,
+.kobeinfo a:focus{
+	background-color: #6a191f;
+	color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

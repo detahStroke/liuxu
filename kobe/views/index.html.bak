@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link  rel="stylesheet" type="text/css" href="css/css1.css" />
+        <SCRIPT src="js/js.js" type=text/javascript></SCRIPT>
+	</head>
+	<body background="img/bc.jpg"; >
+		<h1>Kobe Bryant</h1>
+		<hr/>
+		<div id="All">
+			<div id="nav">
+				<ul>
+					<li ><a href="#">首页信息</a></li>
+					<li><a href="news.html">新闻动态</a></li>
+					<li><a href="#">视频集锦</a></li>
+					<li><a href="kobe.html">职业生涯</a></li>
+				</ul>	
+			</div>	
+		<div id="ifocus">
+			
+			 <div id="ifocus_pic">
+			 	
+				  <div id="ifocus_piclist" style="left:0; top:0;">
+					   <ul>
+					    <li><a href="#"><img src="img/p1.png" alt="" /></a></li>
+					    <li><a href="#"><img src="img/p2.png" alt="" /></a></li>
+					    <li><a href="#"><img src="img/p3.png" alt="" /></a></li>
+					    <li><a href="#"><img src="img/p4.png" alt="" /></a></li>
+					   </ul>
+				  </div>
+		 		  <div id="ifocus_tx">
+					   <ul>
+					    <li class="current">科比新闻1</li>
+					    <li class="normal">科比新闻2</li>
+					    <li class="normal">科比新闻3</li>
+					    <li class="normal">科比新闻4</li>
+					   </ul>
+				  </div>
+			    </div>
+				
+			<div id="ifocus_btn">
+					  <ul>
+					 
+					   <li class="current"><img src="img/p1.png" alt="" /></li>					 
+					  <li class="normal"><img src="img/p2.png" alt="" /></li>				  
+					   <li class="normal"><img src="img/p3.png" alt="" /></li>
+					   <li class="normal"><img src="img/p4.png" alt="" /></li>
+					  </ul>
+			</div>
+		</div>	
+			<div id="img">
+				<div id="img1" >
+					<a href="https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2Fu%2F3264072325%3Fsudaref%3Dkobe.sina.com.cn%26retcode%3D6102&domain=.weibo.com&sudaref=http%3A%2F%2Flogin.sina.com.cn%2Fsso%2Flogin.php%3Furl%3Dhttp%253A%252F%252Fweibo.com%252Fu%252F3264072325%26_rand%3D1461310575.3292%26gateway%3D1%26service%3Dminiblog%26entry%3Dminiblog%26useticket%3D1%26returntype%3DMETA%26sudaref%3Dhttp%253A%252F%252Fkobe.sina.com.cn%252F%26_client_version%3D0.6.16&ua=php-sso_sdk_client-0.6.16&_rand=1461310575.5835"><img src="img/img1.png" /></a>
+				</div>
+				<div id="img2" >
+					<a href="#"><img src="img/img2.png" /></a>
+				</div>
+				<div id="img3" >
+					<a href="#"><img src="img/img3.png" /></a>
+				</div>
+			</div>
+			
+			<div id="news">
+				<div id="news1">
+					<div id="newimg1" >
+						<a href="http://www.baidu.com"><img src="img/newimg1.png" /></a>
+					</div>
+						<div id="head1">
+							<div id="title1">	
+								<h2><a href="#">科比发布会：退役时绝不流泪 最美妙是选秀时</a></h2>
+							</div>
+							<div id="first1">
+								科比在湖人步行者赛后，举行了一个发布会，解释自己“本赛季后退役”的决定。
+							</div>
+						</div>
+				</div>
+				
+				<div id="news2">
+					<div id="newimg2" >
+						<a href="#"><img src="img/newimg2.png" /></a>
+					</div>
+						<div id="head2">
+							<div id="title2">	
+							<h2><a href="#">又见kobe time！那美如画的后仰三分 你哭了吗</a></h2>
+							</div>
+							<div id="first2">
+								又见科比时刻！美如画的后仰3分差点带湖人逆转，虽然球输了，但这样的时刻足以让科蜜满足
+							</div>
+						</div>
+				</div>
+				
+				<div id="news3">
+					<div id="newimg3" >
+						<a href="#"><img src="img/newimg3.png" /></a>
+					</div>
+						<div id="head3">
+							<div id="title3">	
+							<h2><a href="#">科比致球迷：支持和质疑成就了我 爱永不褪色</a></h2>
+							</div>
+							<div id="first3">
+								而在随后的一场湖人主场迎战步行者的比赛中，来到斯台普斯中心的每一名球员都收到了这样一封来自科比的信：
+							</div>
+						</div>
+				</div>
+			
+			</div>
+		</div>
+	</body>
+</html>

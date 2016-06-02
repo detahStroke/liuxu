@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>kobe bryant</title>
+		<link href="css/kobe.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+	<div id="wrapper">
+		<h1>
+		<div class="title">
+		 科比职业生涯
+		 </h1>
+		<center><h3><a href="index.html">返回首页</a></h3></center> 
+		<div id="content">
+			<ul id="kobeposters">
+				<li>
+					<img src="images/img3.jpg" width="250px" height="450px"/>
+					<div class="kobeinfo">
+						<h3>选秀</h3>
+						<p>科比是一位直接从高中进入NBA的球员，1996年由夏洛特黄蜂队在NBA选秀中第一轮第十三位选...</p>
+						<a href="draft.html" title="kobedraft">详情</a>
+					</div>
+				</li>
+				<li>
+					<img src="images/img1.jpg" width="250px" height="450px"/>
+					<div class="kobeinfo">
+						<h3>单场81分</h3>
+						<p>单场81分的神迹几乎是不可能的表演，科比带领湖人完成18分的逆转，全场比赛他46投28中...</p>
+						<a href="#" title="kobe81points">详情</a>
+					</div>
+				</li>
+				<li>
+					<img src="images/img4.jpg" width="250px" height="450px"/>
+					<div class="kobeinfo">
+						<h3>科比王朝</h3>
+						<p>自2000年到2002年，湖人连续三次夺得NBA总冠军，他们几乎以碾压式的姿态称霸联盟，让...</p>
+						<a href="#" title="kobedynasty">详情</a>
+					</div>
+				</li>
+				<li>
+					<img src="images/img2.jpg" width="250px" height="450px"/>
+					<div class="kobeinfo">
+						<h3>巨星谢幕</h3>
+						<p>哨声响起，NBA球星科比结束了职业生涯的最后一战，在“告别战”上60分破纪录的成绩，也...</p>
+						<a href="#" title="koberetired">详情</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>	
+	</body>
+</html>
